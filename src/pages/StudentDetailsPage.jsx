@@ -12,7 +12,7 @@ function StudentDetailsPage() {
   const { studentId } = useParams();
   const studentProfile = studentsData.find(
     (student) => student._id === studentId
-  );
+  ); 
 
   return (
     <div className="StudentDetailsPage bg-gray-100 py-6 px-4 border-2 border-fuchsia-500 m-2">
